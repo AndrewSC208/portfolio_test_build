@@ -6,7 +6,7 @@ const config = milieu('port4-api-test', {
     port: (process.env.PORT || 5000)
   },
   mongo: {
-    url: ''
+    url: 'mongodb://localhost/'
   }
 });
 
